@@ -1,0 +1,23 @@
+
+Q1. How many users are holding the pancake swap token 'cake' ?
+A. 1,332,118 addresses at the time of answer
+
+Q2. Approximately, how many unique addresses are there ?
+A. 266,740,868 as of March 7, 2023
+
+Q3. Who validated the first block after the genesis block ?
+A. sigm8
+
+Q4. Roughly how many transactions are pending ?
+A. 131 pending transaction at the time of writing
+
+Q5. Which contract is consuming most gas ?
+A. At the moment, 0xF5d9e22E8B056be0D69C0632873B8d95f02A0780 
+
+Q6. How much gas is needed to have a transaction get in a block within 5 -
+10 s ?
+A. 5 Gwei
+
+Q7. What is special about this transaction
+0x1bfbff8411ed44e609d911476b0d35a28284545b690902806ea0a7ff0453e931
+A. This is the txn for the creation of Pancake Swap Router V.2
