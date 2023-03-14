@@ -1,0 +1,7 @@
+Score contract
+
+txn: 0x487dfaea89db9b43acc317d3e47c75ad28eb82b4cdfc5b1fdd2940df164c5f5b
+
+Deployed From: 0x67afd39303e0f87Dbe7F0Ad8b5f3ca4DA57b74F9
+
+Verify link: https://testnet.bscscan.com/address/0x9dA7040A035B2Ff407557782b70026937232a30e#code
