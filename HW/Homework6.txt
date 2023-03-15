@@ -1,0 +1,3 @@
+NFT Contract address: 0x125EAf5Cd7f7A854183930EE8C88CDaeF8e98D3d
+
+Mint txn: 0x3505abe3da525ccacca55173af1d948d3da74ecd0ae30450e69c17dd8db2b34f
