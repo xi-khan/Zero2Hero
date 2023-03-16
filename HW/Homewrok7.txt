@@ -1,0 +1,30 @@
+Vulnerabilities in BadLotteryGame
+
+Lack of Access Control: The contract does not have any access control 
+mechanism to restrict unauthorized access. 
+This means anyone can call the addNewPlayer() function and become a player, 
+potentially manipulating the game.
+
+Use of Block Timestamp for Randomness: The pickWinner() function uses the block 
+timestamp to generate a random number. 
+However, block timestamps can be manipulated by miners to some extent, allowing 
+them to potentially influence the selection of the winner.
+
+Vulnerable Payout Mechanism: The distributePrize() function distributes the prize 
+to the winners without checking the 
+total balance of the contract, making it vulnerable to reentrancy attacks. 
+Additionally, the for loop in the function 
+should use the less than operator instead of the less than or equal to operator 
+in order to avoid an out-of-bounds array access.
+
+No Validation of Input Parameters: The addNewPlayer() function does not validate 
+the input parameter _playerAddress, 
+which means that anyone can potentially pass an invalid address as a parameter and 
+cause the contract to revert.
+
+No Withdrawal Functionality: The contract does not include any functionality for 
+players to withdraw their funds, 
+which means they are unable to withdraw their stake if they choose to stop playing.
+
+No SafeMath Library: The contract does not use any safe math library, which could 
+lead to integer overflow or underflow issues.
